@@ -14,12 +14,12 @@ public class SiswaTester {
         siswaBaru.print();
         // object
         // Class object = new constructor
-        Siswa lam = new Siswa(19, "gilam", 100);
-        Siswa zam = new Siswa(22, "azzam", 100);
-        Siswa nibras = new Siswa(29, "ibra", 100);
-        Siswa gus = new Siswa(26, "burhan", 100);
-        Siswa meno = new Siswa(24, "moreno", 100);
-        Siswa tegar = new Siswa(16, "tegar", 100);
+        Siswa gilam = new Siswa(19, "gilamm", 999);
+        Siswa azam= new Siswa(22, "azzamm", 100);
+        Siswa nibras = new Siswa(29, "ibraa", 100);
+        Siswa burhan = new Siswa(26, "burhann", 100);
+        Siswa tegar = new Siswa(24, "tegarr", 100);
+        Siswa moreno = new Siswa(16, "morenoooo", 100);
 
         if(siswaBaru.getIpk() > 75) {
             System.out.println(siswaBaru.getNama() + " lulus");
@@ -36,12 +36,12 @@ public class SiswaTester {
             System.out.println("So bad");
         }
 
-        // lam.print();
-        // zam.print();
+        // gilam.print();
+        // azam.print();
         // nibras.print();
-        // gus.print();
-        // meno.print();
+        // burhan.print();
         // tegar.print();
+        // moreno.print();
         // input.close();
     }
 }
